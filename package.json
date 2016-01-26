@@ -1,0 +1,24 @@
+{
+  "name": "wat",
+  "version": "1.0.0",
+  "description": "A real-time chat application with node, express and socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daocunyang/WatChat.git"
+  },
+  "author": "Daocun Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daocunyang/WatChat/issues"
+  },
+  "homepage": "https://github.com/daocunyang/WatChat#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4"
+  }
+}

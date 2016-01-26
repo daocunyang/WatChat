@@ -1,0 +1,80 @@
+body {
+	margin:0;
+	padding:0;
+	
+}
+
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+.inputArea {
+	margin-top: 1%;
+	font-family: 'Lato', sans-serif;
+}
+
+#display {
+	width:60%;
+	height:300px;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	background-color: honeydew;
+	border-radius: 12px;
+	border:2px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 1%;
+	padding-bottom: 2%; /* this ensures the latest message to be displayed */
+	overflow: auto; /* this allows automatic scroll down */
+}
+
+.systemMsg {
+	font-size: 18px;
+	color: gray;
+	text-align: center;
+}
+
+#inputMessage, #getNickName {
+	width:60%;
+	height:100px;
+	background-color: lightyellow;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 12px;
+	border:2px solid black;
+	padding-left: 1%;
+	font-size:1.5em;
+}
+
+#inputMessage {
+	display: none;
+}
+
+#heading {
+	margin-bottom: 1%;
+	font-size: 1.1em;
+}
+
+/* animated blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
