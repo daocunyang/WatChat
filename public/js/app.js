@@ -61,7 +61,7 @@ $(function(){
 });
 
 function handleInput() {
-	    var message = $("#inputMessage").val();
+	    var message = document.getElementById("inputMessage").value;
      	if (message.length === 0) 
      		return;
      	socket.emit("send message", message);
@@ -69,6 +69,6 @@ function handleInput() {
 }
 
 function scrollBottom() {
-	    var display = $("#display");
+	    var display = document.getElementById('display');
      	display.scrollTop = display.scrollHeight ;
 }
