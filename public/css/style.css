@@ -9,6 +9,15 @@ h1, h2, footer {
 	color: black;
 }
 
+footer {
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
 .inputArea {
 	margin-top: 1%;
 	font-family: 'Lato', sans-serif;
@@ -54,11 +63,6 @@ h1, h2, footer {
 #heading {
 	margin-bottom: 1%;
 	font-size: 1.1em;
-}
-
-footer {
-	margin-bottom: 1%;
-	text-align: center;
 }
 
 /* animated blinking cursor */
