@@ -4,7 +4,7 @@ body {
 	
 }
 
-h1, h2 {
+h1, h2, footer {
 	font-family: 'Lato', sans-serif;
 	color: black;
 }
@@ -54,6 +54,11 @@ h1, h2 {
 #heading {
 	margin-bottom: 1%;
 	font-size: 1.1em;
+}
+
+footer {
+	margin-bottom: 1%;
+	text-align: center;
 }
 
 /* animated blinking cursor */
