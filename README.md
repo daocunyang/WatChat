@@ -7,7 +7,7 @@ In progress; I will keep working on adding more advanced features in my free tim
 https://watchat.herokuapp.com
 
 <h2>Installation & Usage</h2>
-please first make sure you have <a href="https://nodejs.org/en/">Node.js</a> and npm installed properly
+Please first make sure you have <a href="https://nodejs.org/en/">Node.js</a> and npm installed properly, and then follow the commands below
 <pre><code>git clone https://github.com/daocunyang/WatChat.git <br /> </code><br />cd WatChat<br />npm install<br />node server
 </pre>
 
