@@ -1,7 +1,13 @@
 # WatChat
 
 A real-time chat applciation with Node.js, Express.js and Socket.io. <br /><br />
-In progress; I will keep working on adding more advanced features in my free time.<br />
+In progress; I will keep working on adding more advanced features in my free time.<br /><br />
+Some ideas include: 
+<ul>
+  <li>Video streaming</li>
+  <li>Private chat</li>
+  <li>Chat history</li>
+</ul>
 
 <h2>Demo</h2>
 https://watchat.herokuapp.com
