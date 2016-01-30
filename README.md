@@ -4,7 +4,7 @@ A real-time chat applciation with Node.js, Express.js and Socket.io. <br /><br /
 In progress; I will keep working on adding more advanced features in my free time.<br /><br />
 Some ideas include: 
 <ul>
-  <li>Video streaming</li>
+  <li>Video chat</li>
   <li>Private chat</li>
   <li>Chat history</li>
 </ul>
